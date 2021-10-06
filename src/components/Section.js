@@ -2,6 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
+
+
+
 function Section({
   title,
   description,
@@ -86,5 +89,6 @@ const DownArrow = styled.img`
   height: 40px;
   animation: animateDown infinite 1.5s;
   overflow-x: hidden;
+  cursor: pointer;
 `;
 const Buttons = styled.div``;
